@@ -1,0 +1,121 @@
+/* I used the default windows font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP:wght@500&display=swap');
+
+div {
+	padding: 40px;
+}
+.button {
+	font-family: 'Noto Sans JP';
+	padding: 8px 15px;
+	margin: 0;
+	font-size: 14px;
+	border-radius: 6px;
+	line-height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button svg {
+	width: 14px;
+	height: 17px;
+	fill: #fff;
+}
+
+.button span {
+	margin: 0 10px;
+}
+
+.default {
+	color: #3f3f3f;
+	background-color: #e0e0e0;
+	border: none;
+	box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+.default:hover,
+.default:focus {
+	background-color: #aeaeae;
+}
+
+.outline {
+	color: #3d5afe;
+	background-color: transparent;
+	border: 1px solid #3d5afe;
+	box-shadow: none;
+}
+
+.text {
+	border: none;
+	background-color: transparent;
+	color: #3d5afe;
+	box-shadow: none;
+}
+
+.disable-shadow {
+	border: none;
+	background-color: #3d5afe;
+	color: #fff;
+	box-shadow: none;
+}
+
+.disabled {
+	color: #aeaeae;
+}
+
+.icon {
+	min-width: 81px;
+	min-width: 36px;
+	color: #fff;
+	background-color: #2962ff;
+	border: none;
+}
+
+.end-icon {
+	flex-direction: row-reverse;
+}
+
+.sm {
+	width: 72px;
+	height: 32px;
+}
+
+.md {
+	width: 81px;
+	height: 36px;
+}
+
+.lg {
+	width: 93px;
+	height: 42px;
+}
+
+.primary {
+	background-color: #2962ff;
+	color: #fff;
+}
+
+.primary:hover,
+.primary:focus {
+	background-color: #0039cb;
+}
+
+.secondary {
+	background-color: #455a64;
+	color: #fff;
+}
+
+.secondary:hover,
+.secondary:focus {
+	background-color: #1c313a;
+}
+
+.danger {
+	background-color: #d32f2f;
+	color: #fff;
+}
+
+.danger:hover,
+.danger:focus {
+	background-color: #9a0007;
+}
